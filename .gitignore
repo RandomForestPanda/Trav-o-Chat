@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Flutter
+build/
+pubspec.lock
+
+# FAISS data
+backend/knowledge_base/knowledge_base.index
+backend/knowledge_base/text_mapping.pkl
+backend/knowledge_base/pdfs/
+
+# System files
+.DS_Store
+*.log
+*.swp
